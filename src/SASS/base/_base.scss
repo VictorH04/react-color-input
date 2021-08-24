@@ -1,54 +1,6 @@
 /* ===== Universal Things ===== */
 
 :root {
-
-    //* COLORS
-    --Gunmetal: #202c39;
-    --Charcoal: #283845;
-    --Sage: #b8b08d;
-    --Champagne: #f2d492;
-    --alabaster: #E8EDDF;
-    --Tangerine: #f29559;
-    --Tangerine2: #bb6b36;
-    --dark-blue-1: #001233;
-    --dark-blue-2: #0f2b5f;
-    --lightBlue: #2980b9;
-    --independece: #33415C;
-    --black-coral: #5C677D;
-    --roman-silver-1: #7D8597;
-    --roman-silver-2: #8990A0;
-    --jet-black-1: #333533;
-    --jet-black-2: #242423;
-
-    //* SHADOWS
-    --shadow-light-1: 0 3.5rem 4rem rgba(0, 0, 0, .4);
-    --shadow-dark-1: 0 2rem 6rem rgba(0, 0, 0, .4);
-    --shadow-dark-2: 0 2rem 4rem rgba(0, 0, 0, .6);
-    --shadow-dark-3: 0 1.5rem 7rem rgba(0, 0, 0, .8);
-    --shadow-light-4: 0 10px 10px rgba(0, 0, 0, 0.19), 0 10px 1px rgba(0, 24, 69, .5);
-
-    //* BORDERS
-    --border-bottom-1: .2rem solid #000;
-    --border-bottom-2: .5rem solid #2980b9;
-    --border-bottom-3: .5rem solid #48ABC7;
-    --border-bottom-4: .1rem solid #ffd300;
-    --border-bottom-5: .5rem solid #ffd300;
-    --border-bottom-6: .2rem solid #40437c;
-    --border-bottom-7: .5rem solid #fff;
-    --border-1: .5rem solid #48ABC7;
-    --border-2: .5rem solid #fff;
-
-    //* MARGINS
-    --title-margin: 5rem;
-    --top-margin: 2.5rem;
-    --bottom-margin: 2.5rem;
-    --left-margin: 5rem;
-
-    //* PADDINGS
-    --title-padding: 22.5rem 0rem 10rem 7.5rem;
-    --big-padding: 17.5rem 7.5rem;
-
-
     //* FONT-SIZES
     --fs-heading-big: 4rem;
     --fs-heading: 3rem;
@@ -57,14 +9,6 @@
     --fs-text: 1.5rem;
 
 }
-
-/* MEDIA QUERY SIZES */
-$bp-largest: 75em; // 1200px === 75em
-$bp-large: 68.75em; // 1100px === 68.75em
-$bp-medium: 56.25em; // 900px === 56.25em
-$bp-small: 37.5em; // 600px === 37.5em
-$bp-smallest: 31.25em; // 500px === 31.25em
-$bp-phone: 23.75em; // 380px === 23.75em
 
 *,
 *::after,
