@@ -1,0 +1,127 @@
+$screen-sm-min: 576px;
+$screen-sm-height-min: 650px;
+
+$screen-md-min: 768px;
+$screen-md-height-min: 700px;
+$screen-md-height-2-min: 760px;
+$screen-md-height-3-min: 850px;
+$screen-md-height-4-min: 950px;
+$screen-md-height-5-min: 980px;
+
+$screen-lg-min: 992px;
+
+$screen-xl-min: 1200px;
+
+$screen-xxl-min: 1550px;
+
+$screen-xl-height-1-min: 1200px;
+$screen-xl-height-2-min: 1400px;
+$screen-xl-height-3-min: 1600px;
+$screen-xl-height-4-min: 1800px;
+$screen-xl-height-5-min: 2100px;
+
+@mixin sm {
+    @media(max-width: #{$screen-sm-min}) {
+        @content;
+    }
+}
+
+
+@mixin sm-height {
+    @media(max-height: #{$screen-sm-height-min}) {
+        @content;
+    }
+}
+
+
+@mixin md {
+    @media(max-width: #{$screen-md-min}) {
+        @content;
+    }
+}
+
+@mixin md-height-5 {
+    @media(max-height: #{$screen-md-height-5-min}) {
+        @content;
+    }
+}
+
+@mixin md-height-4 {
+    @media(max-height: #{$screen-md-height-4-min}) {
+        @content;
+    }
+}
+
+@mixin md-height-3 {
+    @media(max-height: #{$screen-md-height-3-min}) {
+        @content;
+    }
+}
+
+@mixin md-height-2 {
+    @media(max-height: #{$screen-md-height-2-min}) {
+        @content;
+    }
+}
+
+@mixin md-height {
+    @media(max-height: #{$screen-md-height-min}) {
+        @content;
+    }
+}
+
+@mixin lg {
+    @media(max-width: #{$screen-lg-min}) {
+        @content;
+    }
+}
+
+
+@mixin xl {
+    @media(max-width: #{$screen-xl-min}) {
+        @content;
+    }
+}
+
+@mixin xxl {
+    @media(max-width: #{$screen-xxl-min}) {
+        @content;
+    }
+}
+
+@mixin xxl-min {
+    @media(min-width: #{$screen-xxl-min}) {
+        @content;
+    }
+}
+
+
+@mixin xl-height-5 {
+    @media(max-height: #{$screen-xl-height-5-min}) {
+        @content;
+    }
+}
+
+@mixin xl-height-4 {
+    @media(max-height: #{$screen-xl-height-4-min}) {
+        @content;
+    }
+}
+
+@mixin xl-height-3 {
+    @media(max-height: #{$screen-xl-height-3-min}) {
+        @content;
+    }
+}
+
+@mixin xl-height-2 {
+    @media(max-height: #{$screen-xl-height-2-min}) {
+        @content;
+    }
+}
+
+@mixin xl-height-1 {
+    @media(max-height: #{$screen-xl-height-1-min}) {
+        @content;
+    }
+}

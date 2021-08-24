@@ -1,0 +1,7 @@
+.App {
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 250px repeat(2, 1fr);
+}
