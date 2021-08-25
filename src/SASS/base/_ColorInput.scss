@@ -1,0 +1,11 @@
+.colorInput {
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+
+    place-self: center;
+
+    &--input {
+        padding: 2rem .5rem;
+        font-size: var(--fs-text-big);
+    }
+}
