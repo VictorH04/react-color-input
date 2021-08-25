@@ -8,6 +8,8 @@ import { useState } from "react";
 function App() {
   // state
   const [colorValue, setColorValue] = useState("");
+  const [hexValue, setHexValue] = useState("");
+  const [isDarkText, setIsDarkText] = useState(true);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -16,11 +18,18 @@ function App() {
   return (
     <div className="App">
       <Header headerText="Color input changer" />
-      <ColoredSquare colorValue={colorValue} />
+      <ColoredSquare
+        colorValue={colorValue}
+        hexValue={hexValue}
+        isDarkText={isDarkText}
+      />
       <ColorInput
         colorValue={colorValue}
         setColorValue={setColorValue}
+        setHexValue={setHexValue}
         handleSubmit={handleSubmit}
+        isDarkText={isDarkText}
+        setIsDarkText={setIsDarkText}
       />
     </div>
   );

@@ -1,19 +1,19 @@
 import "../SASS/base/_Square.scss";
 
-const ColoredSquare = ({colorValue}) => {
-    const myStyle = {
-        backgroundColor: colorValue
-    }
+const ColoredSquare = ({ colorValue, hexValue, isDarkText }) => {
+  const myStyle = {
+    backgroundColor: colorValue,
+    color: isDarkText ? "#000" : "#fff"
+  };
 
-    const myStyle2 = {
-        backgroundColor: "none"
-    }
-
-    return (
-        <div className="coloredSquare" style={myStyle}>
-            <p className="coloredSquare-text">{colorValue ? colorValue : "Please input color value"}</p>
-        </div>    
-    )
-}
+  return (
+    <div className="coloredSquare" style={myStyle}>
+      <p className="coloredSquare-text">
+        {colorValue ? colorValue : "Please input color value"}
+      </p>
+      <p className="coloredSquare-text2">{hexValue ? hexValue : null}</p>
+    </div>
+  );
+};
 
 export default ColoredSquare;
