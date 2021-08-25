@@ -10,19 +10,9 @@ const ColoredSquare = ({colorValue}) => {
     }
 
     return (
-        <>
-        {
-        colorValue.length ? 
-        ( 
         <div className="coloredSquare" style={myStyle}>
-            <p className="coloredSquare-text">{colorValue}</p>
-        </div> 
-        ) : ( <div className="coloredSquare" style={myStyle2}>
-                <p className="coloredSquare-text2">Please input a color name</p>
-            </div>
-            )
-        }
-        </>
+            <p className="coloredSquare-text">{colorValue ? colorValue : "Please input color value"}</p>
+        </div>    
     )
 }
 
